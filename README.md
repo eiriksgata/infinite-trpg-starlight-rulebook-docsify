@@ -17,4 +17,13 @@ docsify 也提供了一些全局搜索的功能。
 gitee 可以在线部署静态页面
 本仓库会先实现具体的框架，以供大家参考使用。
 
+### 目录说明
+1. `/docs` 为 markdown 文档存放区 主要用于 docsify 使用。此外该目录下的文件，主要为 docsify 的配置文件 和 主页文档。
+2. `/docs/image` 为图片文件存放区。如果以后有大量的图片，可以再细分图片文件夹
+3. `/docs/items` 为子项文档，像规则书的规则、资源等内容，都放在里面。例如是基础规则，应当在该子项里面再建文件家，例如: `/docs/items/rules/`
+
 ### 文件说明
+1. `/docs/.nojekyll` 为仓库声明文档，告诉gitee pages 这不是一个 jekyll 仓库。
+2. `/docs/README.md` 为文档首页介绍。
+3. `/docs/_sidebar.md` 为侧栏目录内容。
+4. `index.html` 为 docsify 的配置文件。
