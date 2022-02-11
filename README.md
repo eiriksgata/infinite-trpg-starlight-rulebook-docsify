@@ -11,11 +11,15 @@
 2. markdown
 
 ### 实现说明
-
 大家可以通过编写 markdown 文档（形如 .md 为后缀的文档） ，然后通过docsify 生成 HTML 浏览页面。
 docsify 也提供了一些全局搜索的功能。
 gitee 可以在线部署静态页面
 本仓库会先实现具体的框架，以供大家参考使用。
+
+### 开发技巧
+通过简单的学习markdown 就可以做到构建出在线文档，可以参考该链接：[docsify文档助手](https://docsify.js.org/#/zh-cn/helpers?id=%e5%bc%ba%e8%b0%83%e5%86%85%e5%ae%b9)。
+每个层级目录最好进行细分成数个 .md 文件，然后通过 `[filename](_media/example.md ':include')`进行文档拼接。主要用于在.md文件维护上提供极大的便利。
+
 
 ### 目录说明
 1. `/docs` 为 markdown 文档存放区 主要用于 docsify 使用。此外该目录下的文件，主要为 docsify 的配置文件 和 主页文档。
@@ -27,3 +31,6 @@ gitee 可以在线部署静态页面
 2. `/docs/README.md` 为文档首页介绍。
 3. `/docs/_sidebar.md` 为侧栏目录内容。
 4. `index.html` 为 docsify 的配置文件。
+
+### 额外说明
+因为使用的是 gitee 所以暂时不开文档评论功能。

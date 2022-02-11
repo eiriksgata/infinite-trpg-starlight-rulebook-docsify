@@ -1,0 +1,20 @@
+* 规则部分
+  * [本书说明](items/rules/README.md)
+  * [游戏玩法](items/rules/playing_method.md)
+  * [快速建卡](items/rules/create_cards.md)
+  * [技能](items/rules/skill/README.md)
+  * [专长]()
+  * [战斗规则]()
+* 能力资源
+  * [血统](zh-cn/configuration.md)
+  * [改造](zh-cn/themes.md)
+  * [瞳术](zh-cn/plugins.md)
+  * [称号](zh-cn/markdown.md)
+  * [流派](zh-cn/language-highlight.md)
+  * [技艺](zh-cn/language-highlight.md)
+  * [修真](zh-cn/language-highlight.md)
+  * [魔导书](zh-cn/language-highlight.md)
+* 物品资源
+  * [载具](zh-cn/language-highlight.md)
+  * [科技本质](zh-cn/language-highlight.md)
+  * [魔幻本质](zh-cn/language-highlight.md)
